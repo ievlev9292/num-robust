@@ -49,26 +49,3 @@ def get_zero_crossing_ind(a):
         the_ind = np.nan
     return the_ind
 
-
-def check_if_some_are_close(a, tol):
-    """
-    Check if there is a pair of close elements in the iterable a
-    :param a: 1d iterable
-    :param tol: absolute and relative tolerance
-    :return:
-        if there is a pair of elements that are close with tolerance tol,
-        then return a tuple (i1, i2) if indices of such elements
-        (only the first leftmost pair is returned)
-        else return None
-    """
-    are_close = False
-    n = len(a)
-    for i in range(n-1):
-        for j in range(i+1, n):
-            if np.isclose(a[i], a[j], rtol=tol, atol=tol):
-                are_close = True
-                return i, j
-    return None
-
-
-

@@ -17,7 +17,7 @@ Although this routine is not all-powerful, I found that it is significantly more
 Apart from these, there are additional functions.
 
 - `utils.py` contains simple utils that allow tracking e.g. progress of a `for`-loop,
-find zero crossings of a 1d array, find a pair of close elements in an array.  
+find zero crossings of a 1d array.  
 
 - `tests.py` contains tests and usage examples for (most of) 
 the functions listed above.
