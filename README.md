@@ -32,7 +32,7 @@ as well as in the file `tests.py`.
 
 #### History and acknowledgements
 
-- 2020.01 Started development in the course of the projects 
+- 2018.11 Started development in the course of the projects 
 supported by 
 the Russian Foundation for Basic Research according to the research projects
 No. 18-32-00015 and No. 18-02-00048, 
@@ -40,3 +40,4 @@ and by the Foundation for the Advancement of Theoretical Physics and Mathematics
 the research project No. 19-1-5-106-1.
 This code was used in the numerics for arXiv:1911.08328 [hep-th].
 - 2020.09 A few minor improvements
+- 2022.11 Remove an obsolete routine
